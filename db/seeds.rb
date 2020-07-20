@@ -8,8 +8,4 @@
 
 
 #ここにデータベースに一気に適応したいコードを書く
-User.create(username: "nosiken", password: "password2")
-User.create(username: "tuneyasu", password: "password3")
-User.create(username: "koutaku", password: "password4")
-User.create(username: "yasuhiro", password: "password5")
-User.create(username: "kazuki", password: "password6")
+Message.create(body: "pis off", user: User.last)
